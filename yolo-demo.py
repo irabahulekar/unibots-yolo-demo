@@ -23,8 +23,8 @@ while cap.isOpened():
         # Display the annotated frame
         cv2.imshow("YOLO26 Tracking", annotated_frame)
 
-        # Break the loop if 'q' is pressed
-        if cv2.waitKey(1) & 0xFF == ord("q"):
+        # Break the loop if ESC is pressed
+        if cv2.waitKey(1) & 0xFF == 27:
             break
     else:
         # Break the loop if the end of the video is reached
