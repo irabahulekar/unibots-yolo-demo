@@ -6,4 +6,4 @@
 <br>```pip install ultralytics lap```
 <br>```python ~/Desktop/unibots-yolo-demo1/yolo-demo.py (or whatever the filepath is for you)```
 <br><br><br>
-<b>get rid of webcam window by trashing the terminal i havent figured that one out yet 😭😭😭 </b>
+<b>get rid of webcam window with ESC key </b>
