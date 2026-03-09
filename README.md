@@ -1,5 +1,5 @@
 
-<b>remember to change line 11 in yolo-demo.py to your file path to the dataset!!!</b><br><br>
+<b>remember to change line 5 in yolo-demo.py to your file path to the dataset!!!</b><br><br>
 <b> run these in a new terminal (mac)</b>
 <br><br>
 ```python3.12 -m venv yolo_env```
