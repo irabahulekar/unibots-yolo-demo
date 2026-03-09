@@ -7,6 +7,8 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 model = YOLO("yolo26n.pt")  # load YOLO26 model
+model.train(data="/Users/anusha/Desktop/unibots-yolo-demo1/Ball Detection.v1i.yolo26/data.yaml", epochs=100) # train on merged dataset for 100 epochs
+model = YOLO("runs/detect/train/weights/best.pt") 
 
 # Loop through the video frames
 while cap.isOpened():
